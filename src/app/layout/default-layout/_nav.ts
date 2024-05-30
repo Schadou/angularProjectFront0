@@ -12,11 +12,12 @@ export const navItems: INavData[] = [
   },
   {
     title: true,
-    name: 'Theme'
+    name: 'Admin'
   },
   {
     name: 'Colors',
-    url: '/theme/colors',
+    url: '/tables/tables',
+    linkProps: { fragment: 'tchai' },
     iconComponent: { name: 'cil-drop' }
   },
   {
@@ -25,8 +26,16 @@ export const navItems: INavData[] = [
     linkProps: { fragment: 'headings' },
     iconComponent: { name: 'cil-pencil' }
   },
+
+  // path: 'typography',
+  //       loadComponent: () => import('./typography.component').then(m => m.TypographyComponent),
+  //       data: {
+  //         title: 'Typography'
+  //       }
+  
+  
   {
-    name: 'Components',
+    name: 'GESTIONS DE DEVOIRS',
     title: true
   },
   {
