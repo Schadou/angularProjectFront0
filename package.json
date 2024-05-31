@@ -11,7 +11,11 @@
     "coreui_library_docs_url": "https://coreui.io/angular/docs/"
   },
   "scripts": {
-    "build": "npx ng build"
+    "ng": "ng",
+    "start": "node server.js",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
